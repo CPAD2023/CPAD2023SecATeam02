@@ -39,6 +39,6 @@ npm install
 
 ```bash
 Android: npm run android
-Ios: npm run ios
+
 ```
 
