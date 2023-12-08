@@ -8,7 +8,7 @@ const App = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:8080/'); // replace with your server route
+        const response = await axios.get('http://localhost:8080/');
         setData(JSON.stringify(response.data, null, 2));
       } catch (error) {
         console.error("Error:", error);

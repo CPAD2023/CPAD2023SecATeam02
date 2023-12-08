@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, Button, TextInput, Image, TouchableOpacity } from 'react-native';
-import ImagePicker from 'react-native-image-picker'; // You need to install this library
+import ImagePicker from 'react-native-image-picker';
 
 const ProfileScreen = () => {
-  const [foundUser, setFoundUser] = useState({}); // assuming this is your state for user data
-  const [carData, setCarData] = useState([]); // state for car data
+  const [foundUser, setFoundUser] = useState({});
+  const [carData, setCarData] = useState([]);
 
   const changeImage = () => {
     ImagePicker.showImagePicker({}, (response) => {

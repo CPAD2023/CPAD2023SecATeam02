@@ -122,7 +122,7 @@ carModel.find()
                 page: page,
                 pages: count / perPage,
                 isLoggedInval: true
-                //Math.seal() se max value aati h
+                //Math.seal() it gives max value
             })
         })
     })

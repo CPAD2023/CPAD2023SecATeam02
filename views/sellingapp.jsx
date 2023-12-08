@@ -8,7 +8,6 @@ const CarsComponent = () => {
 
   useEffect(() => {
     // Use axios or fetch to get data from the server
-    // This is just a placeholder, replace with your actual API call
     axios.get('https://my-api.com/get-cars')
       .then(response => {
         setCars(response.data.cars);

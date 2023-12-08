@@ -3,7 +3,7 @@ import { Text, View } from 'react-native';
 
 class MyComponent extends React.Component {
   render() {
-    const { message, error } = this.props; // or use this.state if they're in state
+    const { message, error } = this.props; 
 
     return (
       <View>
