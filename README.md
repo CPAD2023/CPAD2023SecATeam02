@@ -1,6 +1,10 @@
 # CPAD2023SecATeam02
 CPAD2023SecATeam02
 
+Team details - 
+Shourya Shrivastava (2022SP93086)
+Anmol Agarwal (2022SP93075)
+
 ## CarNova - Car sell and buy
 
 - CarNova is a cross-platform application for buying and selling cars, developed using React Native.
